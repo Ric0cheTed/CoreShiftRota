@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+passlib[bcrypt]
+python-jose
+python-dotenv
+pandas
+reportlab
+fastapi-mail
+pydantic-settings
+xhtml2pdf>=0.2.9

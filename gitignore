@@ -1,0 +1,27 @@
+# Node/React
+frontend/node_modules/
+frontend/.next/
+frontend/.vercel/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+*.log
+
+# Python/FastAPI
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/*.sqlite
+backend/*.db
+
+# Env & local configs
+**/.env
+**/.env.*
+.env
+.env.*
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
