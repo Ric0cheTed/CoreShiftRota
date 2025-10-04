@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+pydantic==2.*
+pydantic-settings==2.*
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+email-validator
+
+# PDF export (WeasyPrint optional; we auto-fallback)
+reportlab
+weasyprint==61.*
+
+# Dev & seed
+faker

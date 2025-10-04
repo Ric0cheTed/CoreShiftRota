@@ -1,0 +1,23 @@
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+
+# Python / FastAPI
+backend/.venv/
+backend/__pycache__/
+backend/*.sqlite
+backend/*.db
+
+# Env & secrets
+.env
+*.env
+frontend/.env
+backend/.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
